@@ -7,7 +7,7 @@ import win32gui
 import win32con
 import win32api, win32con
 def screen_on():
-    ctypes.windll.user32.SendMessageW(65535, 274, 61808, -1)
+    # ctypes.windll.user32.SendMessageW(65535, 274, 61808, -1)
     # os.system('nircmd\\nircmd.exe monitor on')
     move_cursor()
 
